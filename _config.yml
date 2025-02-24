@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Kim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.png"
   bio              : "Don't get lost in my thoughts"
   location         : "New Zealand"
   email            : "ki270023730@gmail.com"
