@@ -35,19 +35,24 @@ body {
 
 .page {
   @include breakpoint($large) {
-    float: inline-end;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-inline-end: $right-sidebar-width-narrow;
+    // float: inline-end;
+    float: inline-front;
+    width: calc(100%);
+    padding-inline-end: 286px;
+    // width: calc(100% - 60px);
+    // padding-inline-end: 60px;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-inline-end: $right-sidebar-width;
+    width: calc(100%);
+    padding-inline-end: 286px;
+    // width: calc(100% - 60px);
+    // padding-inline-end: 60px;
   }
 
   .page__inner-wrap {
     float: inline-start;
-    margin-top: 1em;
+    // margin-top: 1em;
     margin-inline: 0;
     width: 100%;
     clear: both;
