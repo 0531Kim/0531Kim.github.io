@@ -244,13 +244,14 @@
         position: absolute;
         inset-inline-start: 0;
         bottom: 0;
-        height: 4px;
-        background: $primary-color;
+        height: 2px;
+        background: #00804b;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0) translate3d(0, 0, 0);
         transform: scaleX(0) translate3d(0, 0, 0); // hide
+        transform-origin: left;
       }
 
       &:hover:before {
@@ -516,7 +517,7 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
-    background: $primary-color;
+    background: rgba(15, 82, 186, 0.9);
     border-start-start-radius: $border-radius;
     border-start-end-radius: $border-radius;
   }

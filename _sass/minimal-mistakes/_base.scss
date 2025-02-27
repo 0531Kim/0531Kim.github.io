@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0px 120px;
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
@@ -19,7 +19,17 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+
+  @media (max-width: 1024px) and (min-width: 768px) {
+    padding: 0;
+  }
 }
+
+
 
 h1,
 h2,

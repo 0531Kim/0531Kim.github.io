@@ -7,6 +7,13 @@ main:
   - title: "Search"
     url: /search/
 
+counts:
+  - title: "Catogory"
+    use: true
+  - title: "Tag"
+    use: true
+
+
 # docs:
 #   - title: "List"
 #     children:
