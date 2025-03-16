@@ -185,7 +185,7 @@ $base0f: #ff5370;
 
 ```scss
 /* solarized light syntax highlighting (base16) */
-$base00: #fafafa !default;
+$base00:rgb(231, 231, 231) !default;
 $base01: #073642 !default;
 $base02: #586e75 !default;
 $base03: #657b83 !default;
