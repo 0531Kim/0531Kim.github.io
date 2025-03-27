@@ -184,6 +184,7 @@ hr {
 ul li,
 ol li {
   margin-bottom: 0.5em;
+  // margin-bottom: 0px;
 }
 
 li ul,
@@ -346,4 +347,11 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+li p{
+  margin-bottom: 0px;
+}
+ol li p{
+  margin-bottom: 0px;
 }
